@@ -1,9 +1,10 @@
 <h1 align="center">Shopping Mall Cart with Admin Checkout</h1>
 
 ## Introduction
-Python checkout/shopping system that records transactions.
 
-Includes a simple Python Unit Tests for Shopping Mall Cart. 
+Python checkout/shopping system that records transactions made via the users end.
+
+Also includes a Admin System to to perform various tasks.
 
 ## Project Overview
 
