@@ -11,16 +11,19 @@ The Java Bookstore implements a robust MVC structure:
 
 - **Checkout System:** Reads product.txt barcodes, and prints the transactions into the transactin.txt when a transaction is completed.
   
-- **Database Storage:**Uses sqllite3.
+- **Database Storage:**Uses sqllite3 to store and create database. 
 
-- **Admin System:** Allow modification of products and transactions (add, list, find product and transactions. ).
+- **Admin System:** Allow modification of products and transactions (add, list, find product and transactions. Also, displays excel files of BarChart of product sold and transaction report ).
 
 ## Diagram 
 
 <!--Insert Diagram or GIF here (if applicable) to provide a visual representation of the MVC architecture and the flow of data in the Java Bookstore. !-->
 Admin System Menu Options (Admin):
+
 ![image](https://github.com/ILoveThrumbos/Shopping-Mall-Admin-Checkout/assets/139453924/68a1f414-2ced-438c-bbeb-3ccd494187b7)
+
 SuperMarket Checkout (User):
+
 ![image](https://github.com/ILoveThrumbos/Shopping-Mall-Admin-Checkout/assets/139453924/738afb0e-6740-467d-82d5-bb487dc5fb2a)
 
 
@@ -44,11 +47,13 @@ Before getting started, ensure you have the following installed:
 2. Launch PyCharms.
    Choose "Open Project" and select the cloned shopping mall cart project.
 3. Select a python interpreter.
-4. To Run user checkout system type 'py test_checkOutRegister.py' in terminal.
-5. To run Admin System Menu type 'py mainDAO.py' in terminal (Crendetials provided in mainDAO.py under login method).
+4.  (OPTIONAL) If you wish to create own database/users, delete both db's (login_db.db & product_db.db).
+5.  (If completing OPTIONAL step 4) Use the logindatabase.py and databases.py file templates to create user and database. 
+6. To Run user checkout system type 'py test_checkOutRegister.py' in terminal.
+7. To run Admin System Menu type 'py mainDAO.py' in terminal (Crendetials provided in mainDAO.py under login method).
 
 ### Known Issues
-   - No password hashing set. 
+   - Non currently known.
    - 
 
 ## Support and Contributions
