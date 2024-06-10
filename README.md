@@ -8,7 +8,7 @@ Also includes a Admin System to to perform various tasks.
 
 ## Project Overview
 
-The Java Bookstore implements a robust MVC structure:
+The Python shopping System:
 
 - **Checkout System:** Reads product.txt barcodes, and prints the transactions into the transactin.txt when a transaction is completed.
   
@@ -60,4 +60,4 @@ Before getting started, ensure you have the following installed:
 ## Support and Contributions
 If you encounter any issues or have suggestions for improvement, please create an issue on the GitHub repository. Contributions are welcome, so feel free to submit pull requests to enhance the functionality or fix bugs.
 
-Thank you for using the Java Bookstore! Happy reading!
+Thank you for using the Java Shopping System! Happy reading!
